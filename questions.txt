@@ -1,0 +1,10 @@
+1;Jakie jest stolice Polski?;Warszawa;Krakow;Gdansk;Wroclaw;1
+2;Ktore z tych zwierzat nie jest ssakiem?;Pies;Kot;Kura;Kon;3
+3;Ktory pierwiastek chemiczny ma symbol 'O'?;Tlen;Azot;Wegiel;Rtec;1
+4;Ile wynosi 2 do potegi 3?;4;8;16;32;2
+5;Ktore z tych panstw nie graniczy z Polska?;Niemcy;Slowacja;Litwa;Wlochy;4
+6;Ktory z tych filmow zostal wyrezyserowany przez Christophera Nolana?;Pulp Fiction;Incepcja;Forrest Gump;Shrek;2
+7;Ktora planeta jest najwieksza w Ukladzie Slonecznym?;Mars;Jowisz;Ziemia;Saturn;2
+8;Ktore z tych miast lezy nad Morzem Srodziemnym?;Londyn;Paryz;Rzym;Berlin;3
+9;Ktora z ponizszych nazwisk nalezy do znanej polskiej noblistki?;Smith;Johnson;Curie;Brown;3
+10;Ile wynosi pierwiastek kwadratowy z liczby 144?;10;12;14;16;2
