@@ -179,17 +179,26 @@ public class TestApplication extends JFrame implements ActionListener {
         }
     
         int correctAnswers = 0;
-        int totalQuestions = questions.size();
+        int totalQuestions = questions.size() - 1; // excluding the last line
+        int passThreshold = questions.get(totalQuestions).getQuestionNumber();
+        char result;
         List<Integer> selectedAnswers = currentTest.getSelectedAnswers();
         for (int i = 0; i < totalQuestions; i++) {
             if (i < selectedAnswers.size() && questions.get(i).getCorrectOption() == selectedAnswers.get(i)) {
                 correctAnswers++;
             }
         }
+        if (correctAnswers >= passThreshold) {
+            result = 'P'; // Passed
+        } else {
+            result = 'F'; // Failed
+        }
+    
         double percentage = (double) correctAnswers / totalQuestions * 100;
         JOptionPane.showMessageDialog(this, "Total Questions: " + totalQuestions +
                 "\nCorrect Answers: " + correctAnswers +
-                "\nPercentage: " + percentage + "%");
+                "\nPercentage: " + percentage + "%" +
+                "\nResult: " + result);
     }
 
     private String getUserId() {
